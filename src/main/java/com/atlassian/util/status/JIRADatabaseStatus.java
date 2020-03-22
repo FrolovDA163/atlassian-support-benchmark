@@ -56,7 +56,7 @@ public class JIRADatabaseStatus {
             case "postgres72":
                 tester = new PostgresTester(connectionFactory.getConnection());
                 break;
-            case "sqlserver":
+            case "mssql":
                 tester = new MSSQLTester(connectionFactory.getConnection());
                 break;
             case "oracle":
